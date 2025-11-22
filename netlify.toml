@@ -1,0 +1,20 @@
+[build]
+  command = "npm run build"
+  publish = "out"
+
+# You should set these as environment variables in Netlify
+# (Site settings → Environment Variables) rather than hard-coding
+# secrets in this file. They are read at build-time by Vite via
+# import.meta.env.VITE_*.
+#
+# [build.environment]
+#   VITE_PUBLIC_SUPABASE_URL = "https://your-project.supabase.co"
+#   VITE_PUBLIC_SUPABASE_ANON_KEY = "your-supabase-anon-key"
+#   VITE_STRIPE_PUBLISHABLE_KEY = "your-stripe-publishable-key"
+
+# SPA routing for React Router. This ensures all routes are served
+# by index.html so BrowserRouter works correctly on Netlify.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
