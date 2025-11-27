@@ -18,8 +18,7 @@ const VideoApproval = lazy(() => import('../pages/video-approval/page'));
 const PrivacyPolicy = lazy(() => import('../pages/privacy-policy/page'));
 const AdminVideoDashboard = lazy(() => import('../pages/admin/video-dashboard'));
 const TestDashboard = lazy(() => import('../pages/test-dashboard/page'));
-const NotFound = lazy(() => import('../pages/NotFound'));
-
+const NotFound = lazy(() => import('../pages/notfound'));
 const routes: RouteObject[] = [
   {
     path: '/',
