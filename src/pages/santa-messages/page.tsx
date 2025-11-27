@@ -1,5 +1,5 @@
 
-import Layout from '../../components/layout/Layout';
+import Layout from '../../components/layout/layout';
 import ProductGrid from './components/ProductGrid';
 import ProductComparison from './components/ProductComparison';
 import PersonalizationForm from './components/PersonalizationForm';
